@@ -2,9 +2,9 @@ name: CI Pipeline - GanttProject
 
 on:
   push:
-    branches: [ master, develop ]
+    branches: [ master, develop, feature/ci-pipeline ]
   pull_request:
-    branches: [ master, develop ]
+    branches: [ master ]
 
 jobs:
   build-and-test:
